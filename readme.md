@@ -8,7 +8,7 @@ Due to recent restrictions imposed on the Twitter API, we've adopted a scraping 
 
 🔮 Sneak Peek at Our Architectural Blueprint!
 
-![Architecture](https://imgur.com/deoHXjU)
+![Architecture](https://i.imgur.com/deoHXjU.png)
 
 ## 🛠️ Pipeline Architecture
 
@@ -74,7 +74,7 @@ auth_token = "<your_twitter_auth_token>"
 
 4. **Airflow Configuration:** Adjust the `airflow.cfg` file to reference your script directory and set the S3 bucket name.
 
-![AWS S3 Buckets](https://imgur.com/EbWI0Ku)
+![AWS S3 Buckets](https://i.imgur.com/EbWI0Ku.png)
 
 5. **IAM Role:** Set up an IAM role for the Lambda function to provide:
 
@@ -122,7 +122,7 @@ CREATE TABLE IF NOT EXISTS zomato_data(
 
 4. Pipeline Execution: As per the scheduled interval, the pipeline will scrape Twitter, process the data, and store the finalized output in your Redshift warehouse.
 
-![Process Complete](https://imgur.com/zquguuO)
+![Process Complete](https://i.imgur.com/zquguuO.jpg)
 
 <!-- ## 🎨 Visualization
 
